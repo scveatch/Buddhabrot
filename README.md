@@ -1,6 +1,8 @@
 # CUDA Buddhabrot Generator
 
-This repository contains a CUDA implementation for generating the Buddhabrot fractal. The Buddhabrot fractal is a variation of the Mandelbrot set, displaying the probability distribution of escape trajectories of points in the complex plane iterated under a given mapping.
+This repository contains a CUDA implementation for generating the Buddhabrot fractal. The Buddhabrot fractal is a variation of the Mandelbrot set, displaying the probability distribution of escape trajectories of points in the complex plane iterated under a given mapping. Mathematically, the Mandlebrot set is represented by 
+
+$$z_{n+1} = z_n^2 + c$$
 
 ## Introduction
 
@@ -11,13 +13,13 @@ The Buddhabrot is a visualization of the paths that points in the complex plane 
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/[username]/cuda-buddhabrot.git
+git clone https://github.com/scveatch/Buddhabrot.git
 ```
 
 2. Navigate to the cloned directory:
 
 ```bash
-cd cuda-buddhabrot
+cd Buddhabrot
 ```
 
 3. Compile the CUDA script using `nvcc`:
