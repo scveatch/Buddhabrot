@@ -30,7 +30,7 @@ To compile and run the CUDA fractal generator:
 
 2. Compile the code using nvcc:
     ```bash
-    nvcc fractal.cu -o fractal
+    nvcc brot.cu -o fractal
     ```
 
 3. Run the compiled executable:
